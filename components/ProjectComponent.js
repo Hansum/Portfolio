@@ -1,5 +1,5 @@
-import jobahopic from "../public/jobaho.png";
-import steam from "../public/capstone.png";
+import jobahopic from "../public/jobaho.jpg";
+import steam from "../public/steamcloud.jpg";
 import SkillsComponent from "../components/SkillsComponent";
 import FooterComponent from "../components/FooterComponent";
 
