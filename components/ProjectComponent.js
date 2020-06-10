@@ -1,5 +1,3 @@
-import jobahopic from "../public/jobaho.jpg";
-import steam from "../public/steamcloud.jpg";
 import SkillsComponent from "../components/SkillsComponent";
 import FooterComponent from "../components/FooterComponent";
 
@@ -20,7 +18,7 @@ const project = () => {
                   <img
                     alt="feature"
                     className="object-cover object-center h-full w-full "
-                    src={jobahopic}
+                    src="/jobaho.jpg"
                   />
                 </div>
                 <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
@@ -95,7 +93,7 @@ const project = () => {
                   <img
                     alt="feature"
                     className="object-cover object-center h-full w-full "
-                    src={steam}
+                    src='/steamcloud.jpg'
                   />
                 </div>
                 <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
