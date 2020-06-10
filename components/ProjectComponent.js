@@ -18,7 +18,7 @@ const project = () => {
                   <img
                     alt="feature"
                     className="object-cover object-center h-full w-full "
-                    src="/jobaho.jpg"
+                    src="/jobaho.JPG"
                   />
                 </div>
                 <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
@@ -93,7 +93,7 @@ const project = () => {
                   <img
                     alt="feature"
                     className="object-cover object-center h-full w-full "
-                    src='/steamcloud.jpg'
+                    src='/steamcloud.JPG'
                   />
                 </div>
                 <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
