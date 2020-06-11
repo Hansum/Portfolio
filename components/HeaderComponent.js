@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Link from 'next/link';
 const Headers = () => {
   //   this.isOpen = false;
   const [isOpen, SetispOpen] = useState(false);
@@ -42,24 +42,28 @@ const Headers = () => {
           (isOpen ? "block" : "hidden") + " px-2 pt-2 pb-4 sm:p-0 sm:flex"
         }
       >
-        <a
-          href="#"
-          className="font-poppins font-medium block px-2 py-1 text-white "
-        >
-          Home
-        </a>
-        <a
-          href="#"
-          className="font-poppins font-medium mt-1 block px-2 py-1 text-white  sm:mt-0"
-        >
-          Work
-        </a>
-        <a
-          href="#"
-          className="font-poppins font-medium mt-1 block px-2 py-1 text-white  sm:mt-0"
-        >
-          Contact
-        </a>
+        <Link href="/" scroll={false}>
+          <a 
+            className="text-white font-poppins font-medium block px-2 py-1"
+            >
+            Home
+          </a>
+        </Link>
+         
+        <Link href="/#projects" scroll={false}>
+          <a 
+            className="text-white font-poppins font-medium block px-2 py-1"
+            >
+            Work
+          </a>
+        </Link>
+        <Link href="/#skills" scroll={false}>
+          <a 
+            className="font-poppins font-medium mt-1 block px-2 py-1 text-white  sm:mt-0"
+            >
+            Skills
+          </a>
+        </Link>
       </div>
     </header>
   );

@@ -1,12 +1,16 @@
+import HeroComponent from '../components/HeroComponent';
 import SkillsComponent from "../components/SkillsComponent";
 import FooterComponent from "../components/FooterComponent";
+import HeaderComponent from "../components/HeaderComponent";
 
 const project = () => {
   return (
     <>
+      <HeaderComponent />
+      <HeroComponent />
       <div className="flex align-center justify-center my-auto mx-4">
         <div className="align-center">
-          <div>
+          <div id="projects">
             <h1 className="mt-24 text-white text-2xl text-center font-poppins">
               Projects
             </h1>
@@ -39,22 +43,7 @@ const project = () => {
                         jobs through their experience level. It is only
                         available in cebu
                       </p>
-                      {/* <a className="mt-3 text-indigo-500 inline-flex items-center">
-                      Learn More
-                      <svg
-                        fill="none"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        class="w-4 h-4 ml-2"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                      </svg>
-                    </a> */}
-
-                      <div className="sm:flex sm:justify-center md:justify-start mt-3 sm:mt-5">
+                      <div className="sm:flex sm:justify-center md:justify-center lg:justify-start mt-3 sm:mt-5">
                         <div className="sm:mr-2">
                           <h3 className="text-white">Source Code:</h3>
                         </div>
@@ -69,7 +58,7 @@ const project = () => {
                         </div>
                       </div>
 
-                      <div className="sm:flex sm:justify-center md:justify-start mt-4 sm:mt-5">
+                      <div className="sm:flex sm:justify-center md:justify-center lg:justify-start mt-4 sm:mt-5">
                         <div className="mt-2 sm:mt-3 sm:mr-2">
                           <h3 className="text-white">Tech Stack: </h3>
                         </div>
@@ -109,21 +98,7 @@ const project = () => {
                         Agriculture, Fisheries and Mathematics (STEAM) Education
                         in the Philippines
                       </p>
-                      {/* <a className="mt-3 text-indigo-500 inline-flex items-center">
-                      Learn More
-                      <svg
-                        fill="none"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        className="w-4 h-4 ml-2"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                      </svg>
-                    </a> */}
-                      <div className="sm:flex sm:justify-center md:justify-start mt-4 sm:mt-5">
+                      <div className="sm:flex sm:justify-center md:justify-center lg:justify-start mt-4 sm:mt-5">
                         <div className="mt-2 sm:mt-3 sm:mr-2">
                           <h3 className="text-white">Tech Stack: </h3>
                         </div>

@@ -2,7 +2,7 @@ const skills = () => {
   return (
     <section className="text-gray-700 body-font">
       <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+        <div id="skills" className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">
             Tech Stack and Tools
           </h1>
@@ -34,7 +34,7 @@ const skills = () => {
                 <h3 className="text-teal-200 mr-2">HTML</h3>
                 <h3 className="text-teal-200 mr-2">CSS</h3>
                 <h3 className="text-teal-200 mr-2">TailwindCSS</h3>
-                <h3 className="text-teal-200">Next JS</h3>
+                <h3 className="text-teal-200">NextJS</h3>
               </div>
             </div>
           </div>
@@ -57,8 +57,8 @@ const skills = () => {
                 Back-End
               </h2>
               <div className="flex">
-                <h3 className="text-teal-200 mr-2">Node JS</h3>
-                <h3 className="text-teal-200 mr-2">Express JS</h3>
+                <h3 className="text-teal-200 mr-2">NodeJS</h3>
+                <h3 className="text-teal-200 mr-2">ExpressJS</h3>
                 <h3 className="text-teal-200">CodeIgniter</h3>
               </div>
             </div>

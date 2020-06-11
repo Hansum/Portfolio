@@ -1,5 +1,8 @@
+
 const hero = () => {
   return (
+    <>
+
     <div className="flex align-center justify-center my-auto mx-4">
       <div className="align-center mt-20 ">
         <div>
@@ -17,6 +20,7 @@ const hero = () => {
         <hr />
       </div>
     </div>
+    </>
   );
 };
 
