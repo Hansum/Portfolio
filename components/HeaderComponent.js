@@ -44,7 +44,7 @@ const Headers = () => {
       >
         <Link href="/" scroll={false}>
           <a 
-            className="text-white font-poppins font-medium block px-2 py-1"
+            className="text-white font-poppins font-medium block px-2 py-1 mr-5"
             >
             Home
           </a>
@@ -52,7 +52,7 @@ const Headers = () => {
          
         <Link href="/#projects" scroll={false}>
           <a 
-            className="text-white font-poppins font-medium block px-2 py-1"
+            className="text-white font-poppins font-medium block px-2 py-1 mr-5"
             >
             Work
           </a>

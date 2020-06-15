@@ -11,7 +11,7 @@ const hero = () => {
             <span className="text-orange-500">
               I'm Christian, aspiring Web / Software Developer.
             </span>{" "}
-            Also Interested in bug bounty.
+            Also interested in bug bounty.
           </h1>
           <h3 className="mb-10 font-poppins text-white font-medium sm:text-xl sm:mb-32">
             Currently searching for a full time position

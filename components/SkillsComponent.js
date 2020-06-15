@@ -83,7 +83,6 @@ const skills = () => {
               </h2>
               <div className="flex">
                 <h3 className="text-teal-200 mr-2">Figma</h3>
-                <h3 className="text-teal-200 mr-2">Dribble</h3>
                 <h3 className="text-teal-200">Design Notes</h3>
               </div>
             </div>
@@ -108,7 +107,6 @@ const skills = () => {
               </h2>
               <div className="flex">
                 <h3 className="text-teal-200 mr-2">MySQL</h3>
-                <h3 className="text-teal-200">Firebase</h3>
               </div>
             </div>
           </div>
