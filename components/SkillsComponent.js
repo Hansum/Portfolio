@@ -2,7 +2,10 @@ const skills = () => {
   return (
     <section className="text-gray-700 body-font">
       <div className="container px-5 py-24 mx-auto">
-        <div id="skills" className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+        <div
+          id="skills"
+          className="flex flex-wrap w-full mb-20 flex-col items-center text-center"
+        >
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">
             Tech Stack and Tools
           </h1>
@@ -83,7 +86,6 @@ const skills = () => {
               </h2>
               <div className="flex">
                 <h3 className="text-teal-200 mr-2">Figma</h3>
-                <h3 className="text-teal-200">Design Notes</h3>
               </div>
             </div>
           </div>
@@ -151,11 +153,12 @@ const skills = () => {
                 </svg>
               </div>
               <h2 className="text-white text-lg font-medium title-font mb-2">
-                Version Control
+                Software
               </h2>
               <div className="flex">
                 <h3 className="text-teal-200 mr-2">Git</h3>
                 <h3 className="text-teal-200">Github</h3>
+                <h3 className="text-teal-200">VSCode</h3>
               </div>
             </div>
           </div>

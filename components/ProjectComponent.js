@@ -1,4 +1,4 @@
-import HeroComponent from '../components/HeroComponent';
+import HeroComponent from "../components/HeroComponent";
 import SkillsComponent from "../components/SkillsComponent";
 import FooterComponent from "../components/FooterComponent";
 import HeaderComponent from "../components/HeaderComponent";
@@ -36,21 +36,21 @@ const project = () => {
                         className="justify-center lg:justify-start text-blue-500 no-underline font-poppins font-regular flex"
                         target="_blank"
                       >
-                      <svg 
-                        strokeLinecap="round" 
-                        strokeLinejoin="round" 
-                        strokeWidth="2" 
-                        viewBox="0 0 24 24"
-                        className="w-5 h-5 mt-1 mr-2" 
-                        stroke="currentColor"
+                        <svg
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          viewBox="0 0 24 24"
+                          className="w-5 h-5 mt-1 mr-2"
+                          stroke="currentColor"
                         >
-                        <path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-                        </path>
-                      </svg>
+                          <path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                        </svg>
                         jobaho-co.now.sh
                       </a>
                       <p className="leading-relaxed text-base text-white mt-3">
-                        Jobaho is a job listing website that categorize IT-CS job related in Cebu through level of experience.
+                        Jobaho is a job listing website that categorize IT-CS
+                        jobs in Cebu through level of experience.
                       </p>
                       <div className="sm:flex sm:justify-center md:justify-center lg:justify-start mt-3 sm:mt-5">
                         <div className="sm:mr-2">
@@ -91,7 +91,7 @@ const project = () => {
                   <img
                     alt="feature"
                     className="object-cover object-center h-full w-full "
-                    src='/steamcloud.JPG'
+                    src="/steamcloud.JPG"
                   />
                 </div>
                 <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
@@ -101,16 +101,16 @@ const project = () => {
                         STEAM Cloud
                       </h1>
                       <h2 className="text-blue-500 flex justify-center lg:justify-start">
-                      <svg 
-                        className="w-5 h-5 mt-1  mr-2"
-                        strokeLinecap="round" 
-                        strokeLinejoin="round" 
-                        strokeWidth="2" 
-                        viewBox="0 0 24 24" 
-                        stroke="currentColor">
-                      <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253">
-                      </path>
-                      </svg>
+                        <svg
+                          className="w-5 h-5 mt-1  mr-2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                        </svg>
                         Capstone
                       </h2>
                       <p className="leading-relaxed text-base text-white mt-3">
