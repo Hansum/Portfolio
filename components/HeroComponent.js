@@ -14,7 +14,7 @@ const hero = () => {
             Also interested in bug bounty.
           </h1>
           <h3 className="mb-10 font-poppins text-white font-medium sm:text-xl sm:mb-32">
-            Currently searching for a full time position
+            Currently searching for a full time position or internship.
           </h3>
         </div>
         <hr />
