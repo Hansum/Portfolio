@@ -62,7 +62,7 @@ const skills = () => {
               <div className="flex">
                 <h3 className="text-teal-200 mr-2">NodeJS</h3>
                 <h3 className="text-teal-200 mr-2">ExpressJS</h3>
-                <h3 className="text-teal-200">CodeIgniter</h3>
+                <h3 className="text-teal-200">Laravel</h3>
               </div>
             </div>
           </div>

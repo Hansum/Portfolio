@@ -11,10 +11,10 @@ const hero = () => {
             <span className="text-orange-500">
               I'm Christian, aspiring Web / Software Developer.
             </span>{" "}
-            Also interested in bug bounty.
+            Also interested in Webgl.
           </h1>
           <h3 className="mb-10 font-poppins text-white font-medium sm:text-xl sm:mb-32">
-            Currently searching for a full time position or internship.
+            Currently working as a Backend Developer.
           </h3>
         </div>
         <hr />
