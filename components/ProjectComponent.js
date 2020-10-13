@@ -2,6 +2,7 @@ import HeroComponent from "../components/HeroComponent";
 import SkillsComponent from "../components/SkillsComponent";
 import FooterComponent from "../components/FooterComponent";
 import HeaderComponent from "../components/HeaderComponent";
+import ExperienceComponent from "../components/ExperienceComponent";
 
 const project = () => {
   return (
@@ -157,6 +158,9 @@ const project = () => {
             <hr />
           </div>
           <SkillsComponent />
+          <div className="">
+            <ExperienceComponent />
+          </div>
           <FooterComponent />
         </div>
       </div>

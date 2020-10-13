@@ -1,7 +1,7 @@
-const withImages = require("next-images");
+// const withImages = require("next-images");
 
-module.exports = withImages({
-  webpack(config, option) {
-    return config;
-  },
-});
+// module.exports = withImages({
+//   webpack(config, option) {
+//     return config;
+//   },
+// });

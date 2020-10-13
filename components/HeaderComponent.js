@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Link from 'next/link';
+
 const Headers = () => {
-  //   this.isOpen = false;
-  const [isOpen, SetispOpen] = useState(false);
+  const [isOpen, SetisOpen] = useState(false);
 
   return (
     <header className="bg-gray-900 sm:flex sm:justify-between sm:px-4 sm:py-3">
@@ -12,7 +12,7 @@ const Headers = () => {
         </div>
         <div className="sm:hidden">
           <button
-            onClick={() => SetispOpen((isOpen) => !isOpen)}
+            onClick={() => SetisOpen((isOpen) => !isOpen)}
             type="button"
             className="block text-gray-500 hover:text-white focus:text-white focus:outline-none"
           >
